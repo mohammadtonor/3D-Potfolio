@@ -17,7 +17,7 @@ function HOC() {
              <span className='hash-span' id={idName}>
                  &nbsp;
             </span>
-            
+             
             <Component />
         </motion.section>
     );    
