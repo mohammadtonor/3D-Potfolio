@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div  variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -26,7 +26,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div  className="relative w-full h-[230px]">
           <img
             src={image}
             alt={name}
@@ -67,7 +67,7 @@ const ProjectCard = ({
 const Works = () => {
   return ( 
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div  variants={textVariant()}>
         <p className={styles.sectionSubText}>
           My Works
         </p>
@@ -102,4 +102,4 @@ const Works = () => {
    );
 }
  
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
