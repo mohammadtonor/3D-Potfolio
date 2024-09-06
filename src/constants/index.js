@@ -28,7 +28,10 @@ import {
   ecommerce,
   airbnb,
   multivendor,
-  sass
+  sass,
+  laravel,
+  php,
+
 } from "../assets";
 
 export const navLinks = [
@@ -87,6 +90,9 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
+
+ 
+
   {
     name: "React JS",
     icon: reactjs,
@@ -127,55 +133,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full stack Developer",
+    company_name: "Shopify",
+    icon: shopify,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2017 - jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining full-stack web applications using Laravel and React, ensuring performance and scalability",
+      "Collaborating with designers, product managers, and developers to deliver high-quality, responsive, and cross-browser compatible solutions",
+      "Implementing RESTful APIs and backend services in Laravel, integrating seamlessly with React for a dynamic user experience.",
+      "Participating in code reviews and optimizing both frontend and backend code, ensuring adherence to coding standards and best practices",
+    ],
+  },
+  
+  
+  {
+    title: "MERN stack Developer",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2023",
+    points: [
+      "Developing and maintaining full-stack applications using the MERN stack for high performance and scalability.",
+      "Collaborating with cross-functional teams to create responsive, user-friendly, and cross-browser compatible applications.",
+      "Implementing RESTful APIs with Node.js and Express.js, seamlessly integrating with React for dynamic frontends.",
+      "Conducting code reviews and optimizing MongoDB queries, ensuring adherence to best practices across the stack.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "Freelancer",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 -Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Developing high-performance mobile apps using React Native for both iOS and Android.",
+      "Collaborating with teams to create responsive, cross-platform applications.",
+      "Integrating third-party APIs and native modules for enhanced functionality.",
+      "Conducting code reviews and optimizing performance while following best practices.",
+          ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Starbucks",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining full-stack applications using Next.js, Prisma, and Tailwind CSS for performance and scalability.",
+      "Collaborating with cross-functional teams to create responsive, user-friendly, and visually appealing applications with Tailwind CSS.",
+      "Integrating and managing Stripe payments seamlessly within the Next.js and Prisma stack for secure and efficient transactions.",
+      "Conducting code reviews, optimizing Prisma queries, and ensuring best practices in both frontend and backend development.",
     ],
   },
 ];
@@ -184,15 +192,15 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Majed Karim",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Amir Gholam",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -200,10 +208,10 @@ const testimonials = [
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Farooq Soltan",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/36.jpg",
   },
 ];
 
@@ -227,7 +235,7 @@ const projects = [
       },
     ],
     image: sass,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mohammadtonor/saass-website-builder.git",
   },
   {
     name: "Multi Vendor Ecommerce",
@@ -247,8 +255,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: airbnb,
-    source_code_link: "https://github.com/mohammadtonor/airbnb-clone",
+    image: multivendor,
+    source_code_link: "https://github.com/mohammadtonor/Laravel10_Multi_vendor_Ecommerce.git",
   },
   {
     name: "Properties Booking",
