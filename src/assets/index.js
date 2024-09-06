@@ -29,6 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import booking from "./booking.png";
+import multivendor from "./multi-vendor.png";
+import ecommerce from "./ecommerce.png";
+import airbnb from "./airbnb.png";
+import food from "./food.png";
+import sass from "./sass.png";
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  booking,
+  food,
+  multivendor,
+  airbnb,
+  ecommerce,
+  sass
 };

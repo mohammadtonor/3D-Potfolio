@@ -26,7 +26,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white tex-[18px]
            font-bold cursor-pointer flex">
-            Mohammad &nbsp;
+            Adrian &nbsp;
             <span className="sm:block hidden">
               | Creator Developer
             </span>

@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  booking,
+  food,
+  ecommerce,
+  airbnb,
+  multivendor,
+  sass
 } from "../assets";
 
 export const navLinks = [
@@ -46,20 +52,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FullStack Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
   },
 ];
 
@@ -219,8 +226,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sass,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Multi Vendor Ecommerce",
+    description:
+      "This platform enables multiple sellers to manage their own stores, list products, and process orders independently. Features include user authentication, real-time notifications, dynamic product search.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JQuery",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airbnb,
+    source_code_link: "https://github.com/mohammadtonor/airbnb-clone",
   },
   {
     name: "Properties Booking",
@@ -240,7 +268,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: airbnb,
     source_code_link: "https://github.com/mohammadtonor/airbnb-clone",
   },
   {
@@ -249,26 +277,26 @@ const projects = [
       "The app features a dynamic and responsive user interface, secure user authentication, product listings, shopping cart functionality, and an efficient checkout process.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ecommerce,
     source_code_link: "https://github.com/mohammadtonor/Ecommerce.git",
   },
   
     {
     name: "Hotel Reservation",
     description:
-      " I developed an online booking platform inspired by Booking.com using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS. The platform enables users to search for and book accommodations while providing a robust admin dashboard for managing hotels and user accounts.",
+      " I developed an online booking platform like Booking.com. The platform enables users to search for and book accommodations also managing hotels and user accounts.",
     tags: [
       {
         name: "Node.js",
@@ -283,20 +311,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: booking,
     source_code_link: "https://github.com/mohammadtonor/mearn-booking-app.git",
   },
   {
     name: "Food Ordering",
     description:
-      " I developed an online booking platform inspired by Booking.com using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS. The platform enables users to search for and book accommodations while providing a robust admin dashboard for managing hotels and user accounts.",
+      " food ordering style of apps with next.js 14. By ordering food with additional item like many kind of pizza and other fast food, Cart functionality and payment with stripe  .",
     tags: [
       {
         name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Mongo DB",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
@@ -304,7 +332,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: food,
     source_code_link: "https://github.com/mohammadtonor/food-ordering-app.git",
   },
     
