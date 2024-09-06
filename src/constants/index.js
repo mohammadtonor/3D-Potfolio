@@ -29,7 +29,6 @@ import {
   airbnb,
   multivendor,
   sass,
-  venturenox,
   exilexlegal,
   pomechain,
   eduoco

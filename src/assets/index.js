@@ -36,7 +36,6 @@ import airbnb from "./airbnb.png";
 import food from "./food.png";
 import sass from "./sass.png";
 import web2 from "./web2.png";
-import venturenox from "./venturenox.jfif";
 import exilexlegal from "./exilex_legal.jfif";
 import pomechain from "./pomechain.jfif";
 import eduoco from "./eduoco.jfif";
@@ -77,7 +76,6 @@ export {
   ecommerce,
   sass,
   web2,
-  venturenox,
   exilexlegal,
   pomechain,
   eduoco
