@@ -35,8 +35,6 @@ import ecommerce from "./ecommerce.png";
 import airbnb from "./airbnb.png";
 import food from "./food.png";
 import sass from "./sass.png";
-import php from "./php.png";
-import laravel from "./laravel.png";
 
 export {
   logo,
@@ -73,6 +71,5 @@ export {
   airbnb,
   ecommerce,
   sass,
-  laravel,
-  php
+ 
 };

@@ -29,8 +29,7 @@ import {
   airbnb,
   multivendor,
   sass,
-  laravel,
-  php,
+
 
 } from "../assets";
 
