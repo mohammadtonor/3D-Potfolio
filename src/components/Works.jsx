@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, web2 } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion"; 
@@ -36,13 +36,26 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex  justify-end card-img_hover m-3">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex 
+              className="black-gradient w-8 h-8 rounded-full flex opacity-60 hover:opacity-100
                           justify-center items-center hover:cursor-pointer"
             >
               <img
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          </div>
+          <div className="absolute top-0 left-0  flex  justify-end card-img_hover m-3">
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="bg-white-100 w-8 h-8 rounded-full flex opacity-50 hover:opacity-100
+                          justify-center items-center hover:cursor-pointer"
+            >
+              <img
+                src={web2}
+                alt="github"
+                className="w-2/3 h-2/3 object-contain"
               />
             </div>
           </div>

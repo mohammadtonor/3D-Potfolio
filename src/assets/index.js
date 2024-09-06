@@ -35,6 +35,7 @@ import ecommerce from "./ecommerce.png";
 import airbnb from "./airbnb.png";
 import food from "./food.png";
 import sass from "./sass.png";
+import web2 from "./web2.png";
 
 export {
   logo,
@@ -71,5 +72,5 @@ export {
   airbnb,
   ecommerce,
   sass,
- 
+  web2
 };
