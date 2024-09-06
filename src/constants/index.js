@@ -29,7 +29,10 @@ import {
   airbnb,
   multivendor,
   sass,
-
+  venturenox,
+  exilexlegal,
+  pomechain,
+  eduoco
 
 } from "../assets";
 
@@ -133,9 +136,9 @@ const technologies = [
 const experiences = [
   {
     title: "Full stack Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    company_name: "Eduoco B.V.",
+    icon: eduoco,
+    iconBg: "#E6DEDD",
     date: "Jan 2017 - jul 2022",
     points: [
       "Developing and maintaining full-stack web applications using Laravel and React, ensuring performance and scalability",
@@ -148,8 +151,8 @@ const experiences = [
   
   {
     title: "MERN stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Exilex Legal",
+    icon: exilexlegal,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2023",
     points: [
@@ -174,9 +177,9 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    company_name: "POMECHAIN",
+    icon: pomechain,
+    iconBg: "#E6DEDD",
     date: "March 2023 - Present",
     points: [
       "Developing and maintaining full-stack applications using Next.js, Prisma, and Tailwind CSS for performance and scalability.",
